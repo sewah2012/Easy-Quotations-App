@@ -8,7 +8,8 @@ class DetailsScreen extends StatelessWidget {
     int id = ModalRoute.of(context).settings.arguments;
     return Scaffold(
      appBar: AppBar(
-       title: Text('Details Screen'),
+       title: Text('Swipe left/right'),
+       centerTitle: true,
      ),
      body: Container(
        decoration: BoxDecoration(image: DecorationImage(image: AssetImage('assets/imgs/eman.jpg'),fit: BoxFit.cover) ),

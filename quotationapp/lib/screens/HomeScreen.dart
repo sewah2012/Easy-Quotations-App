@@ -22,7 +22,7 @@ class _HomeScreenState extends State<HomeScreen> {
     // final x = Provider.of<QuotesProvider>(context);
     return Scaffold(
       appBar: AppBar( 
-        title: Text('Easy Quotations App'),
+        title: Text(' ~ Eazy-Quotations ~'),
         centerTitle: true,
         actions: <Widget>[
           IconButton(
